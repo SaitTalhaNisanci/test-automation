@@ -30,6 +30,8 @@ required for testing citus.
 
 You can find more information about every step below in other categories. This list of commands show how to get started quickly. Please see other items below to understand details and solve any problems you face.
 
+Run `initialize.sh` in fabfile folder to create a virtual environment and install dependencies.
+
 ## <a name="basic-cluster-setup"></a> Basic Cluster Setup
 
 On your local machine:

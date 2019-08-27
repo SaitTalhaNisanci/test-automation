@@ -21,5 +21,5 @@ virtualenv --python=$PYTHON_2_PATH env/
 # Activate the environment
 source ./env/bin/activate
 
-# Install requirements
+# Install requirements (make sure that you are in the virtual environment)
 pip install -r requirements.txt
