@@ -1,5 +1,13 @@
+sudo apt-get update
+
+# installing python 2.7 and pip for it
+sudo apt install python2.7 python-pip
+
 #This should point to where python 2 is.
-PYTHON_2_PATH = '/usr/bin/python2.7'
+PYTHON_2_PATH=/usr/bin/python2.7
+
+#install pip
+sudo apt-get install python3-pip
 
 #install virtualenv
 python3 -m pip install --user virtualenv
